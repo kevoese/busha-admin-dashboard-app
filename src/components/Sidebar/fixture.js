@@ -39,29 +39,3 @@ const menuDatas = [
 ];
 
 export default menuDatas;
-
-
-
-
-
-// ,
-//   {
-//     title: 'Payments',
-//     icon: 'https://res.cloudinary.com/store-manager/image/upload/v1569152126/dashboard.svg',
-//     path: '/payments'
-//   },
-//   {
-//     title: 'Transfers',
-//     icon: 'https://res.cloudinary.com/store-manager/image/upload/v1569152126/dashboard.svg',
-//     path: '/transfers'
-//   },
-//   {
-//     title: 'Developers',
-//     icon: 'https://res.cloudinary.com/store-manager/image/upload/v1569152126/dashboard.svg',
-//     path: '/developers'
-//   },  
-//   {
-//     title: 'Settings',
-//     icon: 'https://res.cloudinary.com/store-manager/image/upload/v1569152965/settings.svg',
-//     path: '/settings'
-//   },
