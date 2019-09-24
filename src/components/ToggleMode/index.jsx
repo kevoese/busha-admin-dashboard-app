@@ -5,10 +5,10 @@ const ToggleMode = ({status, handleToggle}) => {
   return (
     <div className="toggle-wrap">
     <div onClick={handleToggle} className="toggle-mode">
-      <div className={`toggle-mode__circle  ${status ? 'live' : 'test'}`} />
+      <div className={`toggle-mode__circle  ${status ? 'working' : 'test'}`} />
     </div>
     <p>
-      {status ? 'Live mode' : 'Test mode'}
+      Test mode
     </p>
     </div>
   )
