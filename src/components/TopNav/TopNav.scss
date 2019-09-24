@@ -1,8 +1,11 @@
+.nav-wrap {
+  padding:0 9.5%;
 .top-nav {
     height: 72px;
-    padding: 17px 9.5%;
+    min-width: 500px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .page-title {
       color: #172B4D;
       font-family: Helvetica, sans-serif;
@@ -18,4 +21,5 @@
       justify-content: space-around;
       align-items: center;
     }
+}
 }
