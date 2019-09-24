@@ -1,0 +1,15 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+
+  &__circle {
+    background-color: #D8D8D8;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+  } 
+}

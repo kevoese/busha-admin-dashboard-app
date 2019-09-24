@@ -1,0 +1,25 @@
+.notification {
+  position: relative;
+  margin: 0 32px;
+  img {
+    width: 19px;
+    height: 23px;
+  }
+  &__circle {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      color: white;
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.top-nav {
+    height: 72px;
+    padding: 17px 95px;
+    display: flex;
+    justify-content: space-between;
+    .page-title {
+      color: #172B4D;
+      font-family: CharlieDisplay;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 0.16px;
+      line-height: 38px;
+      text-align: left;
+      text-transform: capitalize;
+    }
+    .nav-menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+}

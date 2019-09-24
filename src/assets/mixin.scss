@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+@mixin paragraph($fontSize,$fontWeight,$letterSpacing,$lineHeight) {
+  color: $Astronaut;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  letter-spacing: $letterSpacing;
+  line-height: $lineHeight;
+  text-align: right;
+}

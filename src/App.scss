@@ -1,0 +1,34 @@
+.app {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row;
+ 
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  li {
+
+    p {
+      color: #529C4E !important;
+    }
+    path, rect {
+      stroke: #529C4E !important;
+      color: #529C4E;
+    }
+
+  }
+}
+
+.developerSVG {
+  color: #42526E;
+  padding: 0;
+  margin: 0 !important;
+  font-size: 0.85em !important;
+  font-weight: bold !important;
+}

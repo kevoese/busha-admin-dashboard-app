@@ -1,0 +1,33 @@
+.balances {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 17px 95px;
+  &__table {
+    background-color: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(15, 15, 15, 0.1), 0 0 0 1px rgba(15, 15, 15, 0.06);
+    width: 100%;
+    height: fit-content;
+
+    &__header {
+      display: grid;
+      grid-template-columns: 50% 25% 25%;
+      padding: 16px 34px;
+      border-bottom: 1px solid #DFE1E6;
+      p {
+        margin: 0;
+        color: #6B778C;
+        font-family: CharlieDisplay;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.08px;
+        line-height: 19px;
+      };
+      p:nth-child(n+2) {
+       text-align: right;
+      }
+    }
+  }
+}
