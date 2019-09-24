@@ -2,5 +2,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Heroku App Link
 
-https://busha-admin-dashboars-app.herokuapp.com
+https://busha-admin-dashboars-app.herokuapp.com/balances
 
