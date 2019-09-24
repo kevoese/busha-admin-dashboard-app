@@ -8,7 +8,7 @@ const ToggleMode = ({status, handleToggle}) => {
       <div className={`toggle-mode__circle  ${status ? 'live' : 'test'}`} />
     </div>
     <p>
-      {status ? 'Live mode' : 'Test mode'}
+      {status ? 'Working mode' : 'Test mode'}
     </p>
     </div>
   )
