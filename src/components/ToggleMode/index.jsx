@@ -9,7 +9,7 @@ const ToggleMode = ({ status, handleToggle }) => {
           className={`toggle-mode__circle  ${status ? "working" : "test"}`}
         />
       </div>
-      <p>Test mode</p>
+      <p>Test Mode</p>
     </div>
   );
 };

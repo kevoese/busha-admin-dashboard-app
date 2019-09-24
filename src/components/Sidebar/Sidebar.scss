@@ -1,13 +1,13 @@
 .side-bar {
   width: 18%;
-  min-width: 260px;
+  min-width: 220px;
   background-color: #f7f6f3;
   border-right: 1px solid #dfe1e6;
   display: flex;
   flex-flow: column;
   &__header {
     display: flex;
-    padding: 27px 16px;
+    padding: 16px;
     align-items: center;
     justify-content: flex-start;
     &__icon {
@@ -28,9 +28,15 @@
       }
     }
     &__business-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
       font-weight: bold;
       color: #42526e;
       font-size: 0.85em;
+      margin-right: 7px;
+      }
     }
   }
   &__side-menu {
