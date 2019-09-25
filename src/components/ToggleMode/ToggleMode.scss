@@ -1,6 +1,12 @@
 .toggle-wrap {
   display: flex;
   align-items: center;
+  p {
+    color: #42526E;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
   .toggle-mode {
     position: relative;
     background-color: #67C462;

@@ -13,7 +13,7 @@
   div {
     margin: 0;
     color: $Storm-grey;
-    font-size: 16px;
+    font-size: 0.8em;
     font-weight: 400;
     letter-spacing: 0.08px;
     line-height: 19px;
@@ -30,7 +30,8 @@
     }
     p {
       color: $Astronaut;
-      font-size: 16px;
+      font-size: 14px;
+      font-family: Helvetica, sans-serif;
       font-weight: 600;
       letter-spacing: 0.08px;
       line-height: 19px;

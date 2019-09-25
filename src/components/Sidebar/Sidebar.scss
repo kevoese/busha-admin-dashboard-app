@@ -1,7 +1,8 @@
 .side-bar {
   width: 18%;
-  background-color: #F7F6F3;
-  border-right: 1px solid #DFE1E6;
+  min-width: 260px;
+  background-color: #f7f6f3;
+  border-right: 1px solid #dfe1e6;
   display: flex;
   flex-flow: column;
   &__header {
@@ -10,53 +11,61 @@
     align-items: center;
     justify-content: flex-start;
     &__icon {
-        background-color: #FFFFFF;
-        border-radius: 2px;
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 2px 5px 0 rgba(60, 66, 87, 0.1);
-        width: 24px;
-        height: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 9px;
-        p {
-          font-size: 14px
-        }
+      background-color: #ffffff;
+      border-radius: 2px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07),
+        0 2px 5px 0 rgba(60, 66, 87, 0.1);
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 9px;
+      p {
+        font-size: 0.7em;
+        color: #42526e;
+        font-weight: 500;
+      }
+    }
+    &__business-name {
+      font-weight: bold;
+      color: #42526e;
+      font-size: 0.85em;
     }
   }
- &__side-menu {
+  &__side-menu {
     padding: 10px 0;
     margin: 0;
     flex-grow: 1;
   }
-&__accept-btn {
-  padding: 39px 22px;
-  text-align: center;
-  button {
-    background-color: rgba(103, 196, 98, 0.12);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    box-shadow: 0 1px 2px 0 rgba(15, 15, 15, 0.1), inset 0 0 0 1px rgba(103, 196, 98, 0.3);
-    width: 196px;
-    height: 36px;
-    margin: 0 auto;
-    img {
-      width: 15px;
-      height: 15px;
-      margin-right: 5px;
-    }
-    span {
-      color: #67C462;
-      font-family: CharlieDisplay;
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: 0.08px;
-      line-height: 17px;
-      text-align: center;
+  &__accept-btn {
+    padding: 39px 22px;
+    text-align: center;
+    .button {
+      background-color: rgba(103, 196, 98, 0.12);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      box-shadow: 0 1px 2px 0 rgba(15, 15, 15, 0.1),
+        inset 0 0 0 1px rgba(103, 196, 98, 0.3);
+      max-width: 196px;
+      width: 90%;
+      height: 36px;
+      margin: 0 auto;
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+      span {
+        color: #67c462;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.08px;
+        line-height: 17px;
+        text-align: center;
+      }
     }
   }
 }
-}
-
